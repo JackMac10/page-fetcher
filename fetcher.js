@@ -6,7 +6,7 @@ const url = 'http://www.example.edu/';
 
 // Make a GET request to the URL
 http.get(url, (res) => {
-    console.log(`STATUS: ${res.statusCode}`);
+    console.log(`STATUS: ${res.statusCode}`); 
 
 
 const fs = require('fs');
